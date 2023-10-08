@@ -39,18 +39,7 @@ function StoryList({ stories, categories }) {
                 <button class="Category_button">Get a Job in a Tech Company</button>
                 <button class="Category_button">Other</button>
             </div>
-        {/* <select
-          id="category"
-          value={selectedCategory}
-          onChange={handleFilterChange}
-        >
-          <option value="">All</option>
-          {categories.map((category) => (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          ))}
-        </select> */}
+
       </div>
       <div className="stories">
         {filteredStories.map((story) => (
